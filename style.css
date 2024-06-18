@@ -11,19 +11,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-principal);
 }
 
 body {
-  font-family: var(--font-principal);
   width: 100vw;
 }
 
-.navbar__container {
+.navbar {
   font-size: 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin: 18px 80px;
+  padding: 1rem 0;
 }
 
 .header__navigation__list {
@@ -45,7 +45,7 @@ body {
 }
 
 .header__navigation {
-  margin-left: -20%;
+  margin-left: -10%;
 }
 
 .navigation__action__button {

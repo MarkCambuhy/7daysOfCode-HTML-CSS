@@ -16,7 +16,7 @@
 }
 
 body {
-  width: 100vw;
+  width: 100%;
 }
 
 .navbar {
@@ -85,4 +85,34 @@ body {
   font-weight: 400;
   line-height: 30px;
   text-align: center;
+}
+
+.metricas-container {
+  display: flex;
+  gap: 2rem;
+  padding: 0 6rem 6rem 6rem;
+}
+
+.metrica-quantidade {
+  font-weight: 600;
+  font-size: 3.75rem;
+  color: var(--vermelho-escuro);
+  margin-bottom: 12px;
+}
+
+.metrica-titulo {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: var(--dark-blue);
+  margin-bottom: 8px;
+}
+
+.metrica-texto {
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--cinza);
+}
+
+.metrica-item {
+  flex: 1;
 }

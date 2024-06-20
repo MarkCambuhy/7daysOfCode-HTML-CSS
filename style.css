@@ -3,6 +3,7 @@
 :root {
   --branco: #ffffff;
   --vermelho-escuro: #8e2424;
+  --vermelho-claro: rgb(142, 36, 36, 0.1);
   --cinza: #667085;
   --dark-blue: #101828;
   --font-principal: "Inter", sans-serif;
@@ -78,6 +79,7 @@ body {
   color: var(--dark-blue);
 }
 
+.vagas__talentos__texto,
 .cabecalho__texto {
   color: var(--cinza);
   max-width: 800px;
@@ -115,4 +117,29 @@ body {
 
 .metrica-item {
   flex: 1;
+}
+
+.badge {
+  background-color: var(--vermelho-claro);
+  color: var(--vermelho-escuro);
+  border-radius: 1rem;
+  display: inline-block;
+  padding: 4px 12px;
+  margin-bottom: 1rem;
+}
+
+.vaga__titulo {
+  color: var(--dark-blue);
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+}
+
+.vagas__talentos {
+  text-align: center;
+}
+
+.vagas__talentos__texto {
+  display: inline-block;
+  margin-bottom: 4rem;
 }

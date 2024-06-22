@@ -158,6 +158,10 @@ body {
   margin: 0 auto;
 }
 
+.vagas-container {
+  padding-bottom: 6rem;
+}
+
 .vaga {
   border: var(--border-color) 1px solid;
   border-radius: 1rem;
@@ -177,4 +181,37 @@ body {
   display: flex;
   gap: 24px;
   color: var(--cinza);
+}
+
+.avatar {
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+}
+
+.depoimentos-container {
+  text-align: center;
+  padding: 64px 58px;
+}
+
+.depoimentos-container span {
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.depoimentos-container h2 {
+  margin-bottom: 2rem;
+}
+
+.nome {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.profissao {
+  color: var(--cinza);
+  font-size: 0.875rem;
 }
